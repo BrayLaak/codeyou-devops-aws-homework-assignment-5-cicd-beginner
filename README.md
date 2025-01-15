@@ -7,6 +7,7 @@ Implement a CI/CD pipeline for a Python Flask app to check for linting issues, d
 
 ---
 
+
 ### **Provided Resources**
 1. A basic Flask app (`app.py`) that includes a `/` and `/health` endpoint.
 2. A `requirements.txt` file listing the app's dependencies.
