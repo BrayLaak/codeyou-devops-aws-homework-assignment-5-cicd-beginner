@@ -39,7 +39,7 @@ jobs:
         env: 
           SAFETY_API_KEY: ${{ secrets.SAFETY_API_KEY }} 
         run: |
-          safety scan --key $SAFETY_API_KEY
+          safety scan --no-interaction --key $SAFETY_API_KEY
 
       - name: Install bandit
         run: |
